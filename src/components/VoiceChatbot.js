@@ -1,9 +1,6 @@
 import React, { useState } from "react";
 import { Mic, MicOff, Send, ArrowLeft } from "lucide-react";
 
-
-  // ... rest of your fetch options ...
-});
 const VoiceChatbot = ({ selectedLanguage, placeName, locationId, onBack }) => {
   const [messages, setMessages] = useState([]);
   const [inputText, setInputText] = useState("");
