@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Mic, MicOff, Send, ArrowLeft } from "lucide-react";
 
-const response = await fetch("/.netlify/functions/server", { 
+
   // ... rest of your fetch options ...
 });
 const VoiceChatbot = ({ selectedLanguage, placeName, locationId, onBack }) => {
