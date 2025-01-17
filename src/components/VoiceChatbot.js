@@ -28,7 +28,7 @@ const VoiceChatbot = ({ selectedLanguage, placeName, locationId, onBack }) => {
           language: selectedLanguage,
         });
 
-        const response = await fetch("https://github.com/CreativeBweb/smart-matale/blob/main/functions/index.js", {
+        const response = await fetch("https://github.com/CreativeBweb/smart-matale/blob/main/functions/index.js/api/chat", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
